@@ -1,0 +1,11 @@
+{
+  "env": {
+    "TAGS": "not @ignore"
+  },
+  "pageUrl": {
+    "exchangeMarket": "/exchange/markets",
+    "trading": "/exchange/trade/spot"
+  },
+  "testFiles": "**/*.feature",
+  "$schema": "https://on.cypress.io/cypress.schema.json"
+}
