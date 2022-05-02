@@ -21,7 +21,7 @@ describe('REST API v2', function () {
       });
     });
 
-    describe('when parameters are missing', function () {
+    describe('when parameters are invalid', function () {
       dataDriven([
         { instrumentName: 'BTC_USDT', timeframe: '0m' },
         { instrumentName: '', timeframe: '15m' },
