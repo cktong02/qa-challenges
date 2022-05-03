@@ -1,4 +1,3 @@
-
 # Web UI Test
 > A website UI test against navigation to trade page of ZIL/USDT
  
@@ -32,13 +31,13 @@ Select target browser (Chrome) & click test to be executed (exchange.feature)
 
 ## Test design
 Tech stack: Cypress with Cucumber BDD style framework
-`https://www.npmjs.com/package/cypress-cucumber-preprocessor`
+- https://www.npmjs.com/package/cypress-cucumber-preprocessor
 
 ### Test cases
-BDD feature spec in `./cypress/integration/feature/exchange.feature`
-Step definitions in `./cypress/integration/feature/exchange/exchange.js`
-Page objects in `./cypress/support/pageObjects`
+- BDD feature spec in `./cypress/integration/feature/exchange.feature`
+- Step definitions in `./cypress/integration/feature/exchange/exchange.js`
+- Page objects in `./cypress/support/pageObjects`
  
 ### Environment config
 Environment dependent configurations e.g. site base url are stored under `./config` e.g. `prod.json`
-Change target env by adding argument `--config-file ./config/[env].json` in npm test command
+- Change target env by adding argument `--config-file ./config/[env].json` in npm test command
